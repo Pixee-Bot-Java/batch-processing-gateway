@@ -34,6 +34,7 @@ public class SparkApplication extends CustomResource {
   private SparkApplicationSpec spec;
   private SparkApplicationStatus status;
 
+  @Override
   public SparkApplicationSpec getSpec() {
     return spec;
   }
@@ -42,6 +43,7 @@ public class SparkApplication extends CustomResource {
     this.spec = spec;
   }
 
+  @Override
   public SparkApplicationStatus getStatus() {
     return status;
   }

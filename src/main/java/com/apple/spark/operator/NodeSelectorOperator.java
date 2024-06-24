@@ -38,6 +38,7 @@ public enum NodeSelectorOperator {
     this.operator = operator;
   }
 
+  @Override
   public String toString() {
     return operator;
   }
